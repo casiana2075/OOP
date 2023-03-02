@@ -8,6 +8,7 @@ class MovieSeries {
     int count;
 
   public:
+    MovieSeries();
     void init();
     void add(Movie* movie);
     void print() const;

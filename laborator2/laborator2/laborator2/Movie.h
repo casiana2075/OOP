@@ -11,10 +11,6 @@ class Movie {
     int current_year=2023;
 
   public:
-    // constructor
-
-    Movie() {
-        }
         // setters
         void set_name(const std::string& name);
         void set_year(int year);

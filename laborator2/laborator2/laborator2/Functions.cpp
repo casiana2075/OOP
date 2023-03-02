@@ -11,9 +11,9 @@ int movie_compare_name(Movie first, Movie second) {
 }
 
 int movie_compare_year(Movie first, Movie second) {
-    if (first.get_year() == second.get_year())
+    if ((double)first.get_year() == (double)second.get_year())
         return 0;
-    else if (first.get_year() < second.get_year())
+    else if ((double)first.get_year() < (double)second.get_year())
         return -1;
     else
         return 1;

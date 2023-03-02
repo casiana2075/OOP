@@ -29,7 +29,7 @@ int Movie::get_score() {
     if (score > 1.0 && score < 10.0)
         return score;
     else
-        return;
+        return 0;
 }
 
 int Movie::get_length() {
